@@ -8,13 +8,10 @@ cask "imagekit" do
   homepage "https://github.com/tretten/imagekit"
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "ImageKit.app"
   binary "#{appdir}/ImageKit.app/Contents/Helpers/imagekit"
 
-  zap trash: [
-    "~/Library/Preferences/com.imagekit.app.plist",
-    "~/Library/Application Support/ImageKit",
-  ]
+  zap trash: "~/Library/Preferences/com.imagekit.app.plist"
 end
