@@ -1,6 +1,6 @@
 cask "imagekit" do
-  version "0.4.0"
-  sha256 "93fcb14b6525e8a1d755e7a9c5a367c2939e911db097077e28c9729560aa4b49"
+  version "0.4.1"
+  sha256 "4a39b2af032b0f5329b101fe078b1d3ea26f4c7812b12eb091a04d9d71123b4e"
 
   url "https://github.com/tretten/imagekit/releases/download/v#{version}/ImageKit.dmg"
   name "ImageKit"
